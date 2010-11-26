@@ -1,0 +1,28 @@
+<style type="text/css">
+  table#product_legend_specificity, table#product_legend_qualification {
+    width: 400px;
+    margin: 0;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #999999;
+  }
+  table#product_legend_specificity tr td, table#product_legend_qualification tr td {
+    border-collapse: collapse;
+    border: 0;
+    border-style: solid;
+    border-color: #c2c2c2;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+  }
+  table#product_legend_specificity tr td.legend_title, table#product_legend_qualification tr td.legend_title {
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    background: #f2af3e;
+  }
+  table#product_legend_specificity tr td.legend_abbr, table#product_legend_qualification tr td.legend_abbr {
+    color: #1b3e8c;
+    width: 50px;
+  }
+</style>

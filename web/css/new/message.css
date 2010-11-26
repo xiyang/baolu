@@ -1,0 +1,67 @@
+/*message css*/
+.info {
+	color: #00529B;
+	background-color: #BDE5F8;
+	background-image: url('../../images/info.png');
+}
+.success {
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	background-image:url('../../images/success.png');
+}
+.warning {
+	color: #9F6000;
+	background-color: #FEEFB3;
+	background-image: url('../../images/warning.png');
+}
+.error {
+	color: #D8000C;
+	background-color: #FFBABA;
+	background-image: url('../../images/error.png');
+}
+
+.info-box, .warning-box, .success-box, .error-box {  
+    border: 1px solid;
+    margin: 10px auto 20px 0px;
+    padding:15px 25px 15px 100px;  
+    background-repeat: no-repeat;  
+    background-position: 10px center;
+    font: normal 100% Helvetica, Arial, sans-serif;
+} 
+
+.info-box {  
+    color: #00529B;  
+    background:#BDE5F8 url(../../images/info.gif) top left no-repeat;
+    background-position: 5px 5px;
+}  
+.success-box {  
+    color: #4F8A10;  
+    background:#DFF2BF url(../../images/success.gif) top left no-repeat;
+    background-position: 5px 5px;
+}  
+.warning-box {  
+    color: #9F6000;  
+    background:#FEEFB3 url(../../images/warning.gif) top left no-repeat;
+    background-position: 5px 5px;
+}  
+.error-box {  
+    color: #D8000C;
+    background:#FFBABA url(../../images/error.gif) top left no-repeat;
+    background-position: 5px 5px;
+}
+
+.message {
+	margin-left: 17px;
+	color: red;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.message_fixed_height {
+	/*margin-left: 17px;*/
+	color: red;
+	font-weight: bold;
+	height:20px;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,12 @@
+/*For news css*/
+.titleNews{
+	height:60px; 
+	text-align:center;
+	padding-top: 40px;
+}
+.titleNews .newsTile{font-size:24px; font-weight: bold; color:#F2A020;padding-top:10px;}
+.titleNews .newsDate{font-size:10px;color:#7E7E7E;}
+.contentNews{
+	margin: 16px 10px 10px 10px;
+	}
+.author{text-align:right;margin-top: 20px;}

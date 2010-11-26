@@ -1,0 +1,255 @@
+/*****all_static_pages*****/
+#static_content {
+  font-size: 10px;
+  line-height: 20px;
+  padding: 0px 10px 20px;
+}
+
+#static_content h1 {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+#static_content h2 {
+  font-size: 11px;
+}
+
+#static_content p {
+  margin: 0px;
+  margin-bottom: 5px;
+  text-align: justify;
+}
+
+#static_content ul {
+  padding-left: 0;
+  margin: 5px 0 10px;
+}
+
+#static_content ul li {
+  list-style: disc;
+  margin-left: 15px;
+}
+
+#static_content ol {
+  padding-left: 0;
+}
+
+#static_content ol li {
+  list-style: decimal;
+  margin-left: 15px;
+}
+
+#static_content dt {
+  line-height: 15px;
+  font-size: 11px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#static_content dd {
+  margin: 5px 0px 15px 0px;
+}
+
+#static_content a {
+  text-decoration: underline;
+  color: #5D71A4;
+}
+
+#static_content .illustration {
+  margin: 20px auto;
+  text-align: center;
+}
+
+#static_content .illustration img {
+  margin: 2px;
+}
+
+#static_content .illustration span {
+  font-size: 9px;
+  display: block;
+  line-height: 10px;
+}
+
+#static_content table.uc_table {
+  border-style: solid;
+  border-collapse: collapse;
+  border-width: 1px;
+  margin-bottom: 15px;
+}
+
+#static_content table.uc_table .caption h2 {
+  margin: 2px;
+}
+
+#static_content table.uc_table td,th {
+  padding: 4px 15px 4px 10px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#static_content table.uc_table td ul,ol {
+  margin: 4px;
+}
+#static_content hr.separator {
+  height: 1px;
+  width: 100%;
+  border-style: none;
+  background: #BCBCBC;
+  margin: 20px 0;
+}
+
+#static_content h2.orange_h2 {
+  color: #FA8E10;
+}
+
+#static_content a.request_quote {
+  color: #144BFE;
+  font-weight: bold;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+/*****abgent_posters*****/
+#posters_list, #brochures_list {
+  margin-top: 30px;
+}
+#posters_list li.poster_item, #brochures_list li.poster_item {
+  list-style: none;
+  float: left;
+  width: 150px;
+  margin: 10px 10px;
+}
+#posters_list li.poster_item img, #posters_list li.poster_item span {
+  display: block;
+  text-align: center;
+}
+#brochures_list li.poster_item img, #posters_list li.poster_item span {
+  display: block;
+  text-align: center;
+}
+#posters_list li.poster_item img, #brochures_list li.poster_item img {
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #999999;
+}
+
+
+/*****about_us*****/
+strong.goal {
+  color: #F5AF40;
+  font-weight: bold;
+}
+
+#static_content table.service_detail {
+  border-style: none;
+  border-width: 0px;
+  margin-top: 20px;
+}
+#static_content table.service_detail tr td,th {
+  border-style: solid;
+  border-width: 0px;
+  border-bottom-color: #F7AE3D;
+  border-bottom-width: 1px;
+}
+
+#static_content td.service_category {
+  color: white;
+  background: #F7AE3D;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+
+/*****quotations*****/
+#static_content table.quotation_table {
+  width: 700px;
+  margin-bottom: 0px;
+  border-style: solid;
+  border-width: 0 1px;
+  border-color: #999999;
+  border-spacing: 0;
+}
+#static_content table.quotation_table td {
+  border-width: 0px;
+  border-style: none;
+  vertical-align: middle;
+  padding: 2px 4px;
+}
+#static_content table.quotation_table td.field_title {
+  text-align: right;
+  padding-right: 30px;
+}
+#static_content p.quotation_desc {
+  margin-bottom: 20px
+}
+#static_content form.quotation_form input {
+  margin: 2px;
+}
+#static_content form.quotation_form ul.quotation_options > li {
+  float: left;
+  list-style: none;
+  margin-left: 0;
+  width: 50px;
+  line-height: 30px;
+}
+#static_content form.quotation_form ul.quotation_options li div.quotation_options {
+  width: 300px;
+  border-style: solid;
+  border-collapse: collapse;
+  border-width: 1px;
+  border-color: #999999;
+  padding: 2px 5px;
+}
+/**必须写在ul.quotation_options li之后**/
+#static_content form.quotation_form ul.wide li {
+  width: 150px;
+}
+#static_content form.quotation_form table.quotation_table tr td.multi_lines_title {
+  vertical-align: top;
+  padding-top: 8px;
+}
+#static_content form.quotation_form table.quotation_aa_legend {
+  border-style: none;
+  border-width: 0px;
+  border-spacing: 0;
+}
+#static_content form.quotation_form table.quotation_aa_legend tr.odd_line {
+  background: #EDEDED;
+}
+#static_content form.quotation_form table.quotation_aa_legend tr.even_line {
+  background: #FAFAFA;
+}
+#static_content form.quotation_form table.quotation_aa_legend td {
+  padding: 4px 20px 4px 10px;
+}
+#static_content form.quotation_form table.quotation_aa_legend td.legend_abbr {
+  width: 40px;
+}
+#static_content form.quotation_form textarea {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+
+/*****posters_and_brochures*****/
+div#static_content div.brochure_detail {
+}
+div#static_content div.brochure_detail div.brochure_pdf_link {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px auto 20px;
+  text-align: center;
+}
+div#static_content div.brochure_detail div.brochure_pic {
+  width: 702px;
+  margin: 10px auto;
+}
+div#static_content div.brochure_detail div.brochure_pic img {
+  width: 700px;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #AAAAAA;
+}

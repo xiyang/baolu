@@ -1,0 +1,238 @@
+/*For base css*/
+
+body{
+	font:70%/1.3em Verdana,Arial,Geneva,Helvetica,sans-serif;
+	text-align:center;
+	color:#000;
+	margin:0px auto 5px auto;
+}
+
+a{
+	color: #5F5F61;
+	text-decoration: none;
+	
+}
+
+a:hover {
+	color: #F7B956;
+}
+
+a:active{
+	color: #F7B956;
+	text-decoration: underline;
+}
+
+UL {
+	LIST-STYLE-TYPE: none
+}
+
+OL {
+	LIST-STYLE-TYPE: none
+}
+
+LI {
+	LIST-STYLE-TYPE: none
+}
+
+form{
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	border:0px;
+}
+
+.hand{
+	cursor: pointer;
+	
+}
+
+.title{
+	color:#F5AF40;
+}
+
+.underline{
+	text-decoration: none;
+}
+
+.titleHead{
+	color:#000;
+	padding:50px 0px 32px 8px;
+	font-size: medium;
+	font-weight: bold;
+	color:#000;
+	font-weight:bold;
+}
+
+#header h1{
+	margin:0;
+	line-height:auto;
+	clear:none;
+	font-size:medium;
+}
+
+/*DOCS*/
+#detailContent{
+	margin-left: 8px;
+	margin-right: 10px;
+	padding-top: 40px;
+}
+
+/* HR */
+.head {
+	width: 100%;
+	margin-bottom: 10px;
+	border: .5px solid #e3e3e3;
+}
+
+.subHead {
+	border: 0.5px solid #f7ae3d
+}
+
+.curr{
+	font-weight: bolder;
+	color: #f5af64;
+}
+
+/* SUMOplot css */
+.sumoplot{
+	padding-left:15px;
+	padding-top:55px;
+}
+.sumoplotTitle{
+	font-size: 15px;
+	font-weight: bolder;
+	padding-bottom:45px;
+	border-bottom: 1px solid #BDBCBC;
+	width: 450px;
+}
+.sumoplotText{
+	padding-top: 15px;
+	padding-bottom: 25px;
+	line-height:17px;
+	width: 450px;
+}
+.liTitle{
+	color: #F6AE3C;
+	height: 18px;
+	padding-left: -5px;
+	padding-right: 10px;
+	font-size: 10px;
+}
+
+.sumoLoginBackground{
+	margin:35px 0px 35px 70px;
+	height: 187px;	
+}
+.sumoLoginBackgroundL{
+	background-image: url("../../images/new/SUMOplot-login-left.gif");
+	height: 187px;
+	width:9px;
+	float:left;
+}
+.sumoLoginBackgroundC{
+	background-image: url("../../images/new/SUMOplot-login-content.gif");
+	background-repeat: repeat-x;
+	height: 187px;
+	width: 278px;
+	float:left;
+}
+.sumoLoginBackgroundR{
+	background-image: url("../../images/new/SUMOplot-login-right.gif");	
+	height: 187px;
+	width:9px;
+	float:left;
+}
+.sumoLogin{
+	
+	FONT-SIZE: 10pt;
+	
+}
+.sumoLogin .concon{
+	margin-left:0px;
+	padding-left: -10px;
+	margin-top: 20px;
+	}
+.sumoLogin .concon .line_header{
+	text-align: right; 
+	WIDTH: 90px; 
+	HEIGHT: 20px; 
+	PADDING-TOP: 2px;
+	font-size: 10px;
+}
+.sumoButton{
+	background-image: url("../../images/new/SUMOplot-login-button.gif");	
+	width: 87px;
+	height: 22px;
+	color: #FFF;
+	border: 0px;
+	cursor: pointer;
+}
+.sumoRight{
+	width:238px;
+	float: right;
+	margin-right: 15px;
+	padding-top: 20px;
+}
+.sumoRightTable{
+	margin-top:25px;
+	border: 1px solid #F6AE3C;
+}
+.sumoRightTable ul{
+	margin-left: 10px;
+	padding-left: 10px;
+}
+.sumoRightTable ul li{
+	FONT-SIZE: 10px;
+}
+.sumoRightTableTitle{
+	background-color: #F6AE3C;
+	height: 20px;
+	line-height:20px;
+	text-align: center;
+	color: #FFF;
+	font-size: 12px;
+}
+.sumoplotGo{
+	background-image:url(../../images/new/myCartBackgroundButtonImg.png);
+	background-position: -90px -7px;
+	width: 36px;
+	height:23px;
+	margin: 10px 20px 10px 0px;
+	border: 0px;
+	color: #FFFFFF;
+	font-weight: bolder;
+	font-size: 11px;
+	cursor: pointer;
+}
+.sumoplotClear{
+	background-image:url(../../images/new/myCartBackgroundButtonImg.png);
+	background-position: 0px -57px;
+	width:95px;
+	margin: 10px 0px 10px 0px;
+	border: 0px;
+	height:23px;
+	color: #FFFFFF;
+	font-weight: bolder;
+	font-size: 11px;
+	cursor: pointer;
+}
+.sumoplotNew{
+	background-image:url(../../images/new/SUMOplot-new.png);
+	width: 33px;
+	height: 32px;
+	float: right;
+	margin-top: -15px;
+	margin-left: 10px;
+}
+.sumoRightTitle{
+	
+}
+
+/**for user shipping information and billing information*/
+.marginForUserInformation {
+	margin-top: -10px; 
+	margin-bottom: -8px;
+	font-weight: bold;
+}

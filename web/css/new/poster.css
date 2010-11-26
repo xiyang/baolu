@@ -1,0 +1,104 @@
+#freePoster {
+	PADDING-BOTTOM: 10px; 
+	WIDTH: 740px; 
+	FONT-SIZE: 10px; 
+	PADDING-TOP: 10px;
+}
+
+.trace {
+	padding-top: 0px;
+	margin-left: 8px;
+}
+
+#freePoster table {
+	margin-left: 8px;
+}	
+	
+#freePoster .tr {
+	PADDING-BOTTOM: 5px; 
+	PADDING-LEFT: 0px; 
+	PADDING-RIGHT: 0px; 
+	CLEAR: both; 
+	OVERFLOW: hidden; 
+	PADDING-TOP: 5px;
+	width: 440px;
+}
+
+#freePoster .titles {
+	TEXT-ALIGN: right; 
+	WIDTH: 120px; 
+	FLOAT: left; 
+	HEIGHT: 20px; 
+	margin-right: 5px;
+	padding-top: 3px;
+}
+
+#freePoster .input_area {
+	WIDTH: 175px; 
+	FLOAT: left;
+	margin-right: 5px;
+}
+
+#freePoster .input_area  input{
+	FLOAT: left;
+	WIDTH: 155px; 
+	margin-right: 5px;
+}
+
+#freePoster .redStar{
+	FLOAT: left;
+	width: 1px;
+	size: 1px;
+	color: red;
+	HEIGHT: 20px; 
+	padding-top: 3px;
+}
+
+#freePoster .pst_btn {
+	margin-top: 50px;
+	BORDER-LEFT-WIDTH: 1px;
+	BORDER-RIGHT-WIDTH: 1px; 
+	border-color:white;
+	WIDTH: 144px; 
+	BACKGROUND: url(../../images/mod_info_sumit_btn.gif) no-repeat 0px 0px; 
+	BORDER-TOP-WIDTH: 1px; 
+	BORDER-BOTTOM-WIDTH: 1px;
+	border-bottom-color: white; 
+	HEIGHT: 35px; 
+	CURSOR: pointer; 
+	FONT-WEIGHT: bold;
+	text-align: center;
+}
+
+#freePoster .show_info {
+	FLOAT: left;
+	TEXT-ALIGN: left; 
+	WIDTH: 135px; 
+	COLOR: red; 
+	CLEAR: right;
+	padding-top: 3px;
+}
+
+#freePoster .message {
+	margin-bottom: -40px;
+}
+
+#freePoster .poster-img {
+	margin-bottom: 20px;
+}
+
+#freePoster .poster-img img {
+	width: 255px; 
+	height: 354px;
+	border: 1px solid silver;
+}
+
+.fieldsetPosrer {
+	margin-bottom: 30px;
+	padding-left: 10px;
+}
+
+.fieldsetPosrer a{
+	margin-left: 50px;
+	color: blue;
+}	

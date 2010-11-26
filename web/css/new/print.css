@@ -1,0 +1,42 @@
+/*Print css*/
+body    {font-size:12px; font-family: Arial, sans-serif, Helvetica, Tahoma;text-align:center;color:#000;margin:0px auto 5px auto; }
+a       {color: #4a4a4a;text-decoration: none;}
+a:hover {color: #4E7AB1;text-decoration: none;}
+a:active{color: #4E7AB1;text-decoration: none;}
+img     {border:0px;}
+/*container*/
+#container {MARGIN: 0px auto; WIDTH: 712px;}
+/*header*/
+#header    {
+	height:72px;
+	margin-bottom:-16px;
+	padding-top:50px;
+	text-align:left;
+	/*background-image:url(../images/Logo.gif);
+	background-repeat:no-repeat;
+	background-position:0px 15px;*/
+}
+#language  {width:287px;background-image:url(../images/ToolBar.gif);background-repeat:no-repeat;background-position:0px 0px;float:right;background-color:#BBB;height:23px;color:#FFF;}
+#toolbar{float:right; margin:44px -287px 0px 0px;height:16px;color:#3B3B3B;}
+#menu{height:30px;color:#F6AE3C;line-height:30px;font-weight:bolder; border:1px solid #EBEBEB;}
+
+#main  {margin:10px 0px 10px 216px;text-align:left;vertical-align:top;}
+.underLine{text-decoration:underline;}
+.printTitle {font-weight: bolder;color: #000;font-size:12px;font-family:Arial;}
+.elementTitlePrint {
+	color:#2F2725;
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+}
+td {
+	font-size:14px;
+}
+.categoryTdForPrint a{
+	font-size:14px;
+	color: #3F42EF;
+}
+
+.pageForPrint {
+	page-break-before: auto;
+}

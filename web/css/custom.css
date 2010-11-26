@@ -1,0 +1,57 @@
+/* the class name is same as docs, order detail.jsp and docs detail.jsp*/
+.customizeTop{margin-top: 20px;}
+#customDetail{border: 1px solid #F5AF64;}
+.customInfo {background-color:#F1F1F1;width: 738px;margin-top: 1px 1px}
+.customInfo th,td{height: 30px;padding-left: 6px}
+
+.shippingAddress td, .billingAddress td{
+	width: 740px;
+	word-break: break-all;
+	word-wrap: break-word ;
+}
+
+.shippingOrder, .billingOrder{
+	width: 100%;
+}
+
+.shippingOrder th, .billingOrder th{
+	width: 150px;
+	text-align: right;
+}
+
+.shippingOrder td, .billingOrder td{
+	/*width: 50%;*/
+	text-align: left;
+	word-break: break-all;
+	word-wrap: break-word ;
+}
+
+.shippingOrder td input, .billingOrder td input{
+	width: 94%;
+	text-align: left;
+}
+
+.shippingOrder .show_info, .billingOrder .show_info{
+	width: 150px;
+	text-align: left;
+}
+
+.shippingOrder .submit_btn, .billingOrder .submit_btn {
+	width: 60px;
+	text-align: center;
+}
+
+.orderItemList {margin: 0px 10px 30px;padding-top: 0px;}
+.orderItemTitle {margin: 0px 10px;}
+.orderMessage {border-top:1px solid #cfcfcf;border-bottom:1px solid #cfcfcf; padding-top: 10px;margin: 20px 10px 0px;}
+.orderMessage a {color: #899bc7;text-decoration: underline;font-weight: bolder;}
+.orderMessage .add {font-weight: bolder;}
+.orderMessage ul {padding-left: 0px;margin-top: 0px;}
+.orderMessage .price {float: right;padding-right: 15px;}
+.orderMessage .price li{margin-top: 10px;}
+.orderMessage .contant {margin-bottom: 30px;}
+.orderMessage .contant li{margin-top: 10px;}
+.pay {margin-top: 15px;text-align: center;}
+.blueTxt {color: #5c78b9;padding-left: 5px;}
+.txtGray {color: #838182;padding-left: 5px;}
+.txtRed {color: red;padding-left: 5px;}

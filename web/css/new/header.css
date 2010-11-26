@@ -1,0 +1,126 @@
+/*header css*/
+
+#header{
+	height:71px;
+	/*background-image:url(../../images/new/header_bg.png);
+	background-repeat:no-repeat;
+	background-position:right center;*/
+	padding-right:0px;
+	width:938px;
+	clear: both;
+	display: block;
+}
+
+.logo{
+	height:45px;
+	width:165px;
+	background-image:url(../../images/new/logo.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin-right: 6px;
+	margin-top: 13px;
+	margin-left: 12px;
+}
+
+#language{
+	width:260px;
+	height:14px;
+	float:right;
+	margin-top:11px;
+	margin-right:5px;
+	text-align: right;
+	font-weight:900;
+	color:#6D6D6D;
+	font-size:9px;
+	word-spacing: 0.35em;
+}
+#language a{
+	font-size:9px;
+	color:#6D6D6D;
+	text-decoration: none;
+}
+
+#language a:active{
+	font-size:9px;
+	color:#6D6D6D;
+	text-decoration: none;
+}
+
+#language *{
+	display:inline;
+	vertical-align: text-top;
+}
+	
+#headSearch {
+	width:274px;
+	float:right;
+	height:26px;
+	margin-top: 38px;
+	text-align:right;
+	margin-right: -276px;
+	position: relative;
+}
+
+#toolbar{
+	float:right; 
+	width:490px; 
+	height:14px;
+	color:#6D6D6D;
+	margin-top: 45px;
+	font-weight:900;
+	font-size:9px;
+	word-spacing: 0em;
+	text-align: left;
+	text-align: right;
+	display: block;
+}
+
+#toolbar img{
+	padding-bottom:0px;
+}
+
+#toolbar a{
+	font-size:9px;
+	color:#6D6D6D;
+	text-decoration: underline;
+	
+}
+
+#toolbar a:active{
+	font-size:9px;
+	color:#6D6D6D;
+	text-decoration: none;
+}
+
+#toolbar *{
+	display:inline;
+	vertical-align: text-top;
+}
+
+/* bioCRO header*/
+
+.fontStyle{
+	color:#3B3B3B;
+	font-size:12px;
+	padding-top:5px;
+	margin-top:5px;
+	font-weight: bold;
+}
+
+#banner{ 
+	position: relative;
+	top: -4px;
+	height:136px;
+	color:#F6AE3C;
+	line-height:30px;
+	font-weight:bolder;
+}
+
+.menuFontTest{color: #FFF;font-size:12px;}
+
+.content{
+	color: #6D6D6D;
+}
+.afterclick{
+    color: #F7B956;
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<messages>
+	<message>
+		<msgid><![CDATA[First Name is a requested field!]]></msgid>
+		<msgstr><![CDATA[名称为必填项]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Last Name is a requested field!]]></msgid>
+		<msgstr><![CDATA[名称为必填项]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Password is a requested field!]]></msgid>
+		<msgstr><![CDATA[密码为必填项]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Re-password is a requested field!]]></msgid>
+		<msgstr><![CDATA[密码为必填项]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[E-Mail is a requested field!]]></msgid>
+		<msgstr><![CDATA[邮件是必填项]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Address is requested if you want to subscribe!]]></msgid>
+		<msgstr><![CDATA[如果订阅我们资料，地址为必填项]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Password and Re-password cannot match!]]></msgid>
+		<msgstr><![CDATA[密码要一致]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Your E-Mail format is incorrect!]]></msgid>
+		<msgstr><![CDATA[邮件格式不正确]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Old password is a requested field!]]></msgid>
+		<msgstr><![CDATA[密码为必填项]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[New password is a requested field!]]></msgid>
+		<msgstr><![CDATA[密码为必填项]]></msgstr>
+	</message>
+</messages>

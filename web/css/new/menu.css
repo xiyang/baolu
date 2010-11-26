@@ -1,0 +1,201 @@
+/*menu css*/
+
+ #myslidemenu .m_li,.menuButton .menuButtonLeft, .menuButton .menuButtonRight{
+	background:url(../../images/new/images-collections.png);
+}
+
+#menu {		
+	width:938px;
+    height:32px;
+}
+#menu .menuLeft{	
+	float:left;
+	width: 4px;
+	height: 32px; 
+}
+#menu .menuContre{
+	float:left;
+	background-image:url(../../images/new/menu-bg.png);
+	width:931px;
+	height:32px;
+	background-repeat:repeat-x; 
+}
+#menu .menuRight{
+	float:left;
+	/*background-position: -5px 0px;*/
+	width: 3px;
+	height: 32px;	
+}
+
+/*  You can use the assembly button if the menu content too long.
+.menuButton{
+	width: 204px;
+	height: 29px;
+	}
+.menuButton .menuButtonLeft{ 
+	float: left;
+	background-position: 0px -65px;
+	width: 60px;
+	height:29px;
+}
+.menuButton .menuButtonRight{ 
+	background-position: -8px -65px;
+	width: 140px;
+	float: left;
+	height:29px;
+}
+*/
+
+/*******************************************************/
+.jqueryslidemenu{	
+	position :relative ;
+	z-index :3;
+	font: bold 12px;
+	width: 100%;
+	line-height:26px;
+	margin-top: -10px;
+}
+
+.jqueryslidemenu ul{
+	padding-right: 0px;
+	margin-top: 12px;
+	
+}
+#menu .jqueryslidemenu .m_li{
+	background-position:0 -65px;
+	color:#666666;
+	display:inline;
+	float:right;
+	/*font-family:Lucida Sans Unicode;*/
+	font-size:11px;
+	font-weight:bolder;
+	height:29px;
+	line-height:26px;
+	margin-right:1px;
+	margin-top:2px;
+	position:relative;
+}
+
+#menu #m1{
+	width:148px; 	
+}
+
+#menu #m2{
+	width:148px; 
+}
+
+#menu #m3{
+	width:148px; 
+}
+
+#menu #m4{
+	width:148px; 
+}
+
+#menu #m5{
+	width:148px; 
+}
+
+.m_li hand{
+	color: #2f2725;
+}
+
+/* Used in china menu*/
+.jqueryslidemenu ul li .menuPopup-cn li a{
+    margin:0px;
+	text-decoration: none;
+	font: normal 13px Verdana;
+	width: 122px; /*width of sub menus*/
+	padding: 7px 5px 6px 20px;
+}
+.jqueryslidemenu ul li .menuPopup-cn{
+	width: 148px;
+}
+
+.jqueryslidemenu ul li .menuPopup-cn li a:hover{
+	background:#F7B956 ;
+	color: #000;
+}
+
+/*Top level menu link items style*/
+.jqueryslidemenu ul li a{
+	display: block;
+	text-decoration: none;
+}
+
+/*1st sub level menu*/
+.jqueryslidemenu ul li ul{
+	margin-top:0px;
+	margin-left:0px;
+	padding-right:0px;
+	padding-left:0px;
+	text-align:left;
+	background: #F6F6F6;
+	
+	filter:alpha(opacity=95); /* IE */
+    -moz-opacity:0.95; /* Moz + FF */
+    opacity: 0.95; /* CSS3+FF 1.5*/ 
+	
+	position: absolute;
+	z-index:1;
+	left: 0;
+	visibility: hidden;
+	/*border-bottom: 1px solid #F6AE3C;*/
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.jqueryslidemenu ul li ul li {
+	display: list-item;
+	float: none;
+	color: #4A4A4A;
+	/*border-left: 1px solid #F6AE3C;
+	border-right: 1px solid #F6AE3C;
+	border-bottom : 1px solid #F6AE3C;*/
+}
+
+/* Sub level menu links style */
+.jqueryslidemenu ul li ul li a{
+	text-decoration: none;
+	font: normal 12px Verdana;
+	width: 160px; /*width of sub menus*/
+	padding: 5px 5px 5px 20px;	
+}
+
+#myslidemenu li:hover,#myslidemenu .m_li:hover{
+	background-position: 0px -34px;
+	color: #FFFFFF;	
+}
+
+#myslidemenu .m_li ul li a:hover{
+	background-color: #fbbd28;	
+	
+}
+
+.jqueryslidemenu ul li ul li a:link {
+    color: #4A4A4A;
+}
+
+.jqueryslidemenu ul li ul li a:visited{
+     color: #4A4A4A;
+}
+
+.jqueryslidemenu ul li ul li a:hover{
+	background:#FBBD2A;
+	color: #000;
+	filter:alpha(opacity=1000); /* IE */
+    -moz-opacity:1; /* Moz + FF */
+    opacity: 1; /* CSS3+FF 1.5*/ 
+}
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+.downarrowclass{
+	position: absolute;
+	top: 0px;
+	right:15px;
+}
+
+.rightarrowclass{
+	position: absolute;
+	top: 6px;
+	right: 5px;
+}

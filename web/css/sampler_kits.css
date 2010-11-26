@@ -1,0 +1,137 @@
+/* sampler_kits buy */
+.item {
+	width: 60px;
+	margin-right: 5px;
+	border: 1px solid #B6B6B6;
+	background-color: white;
+
+}
+.txt {font-weight: bolder;}
+.redTxt {color: red;padding-left: 5px;}
+.blueTxt {color: blue;padding-left: 5px;}
+.mailTo {text-decoration: none;}
+.samplerKitsProducts {
+	width: 100%; 
+	text-align:left;
+	margin-bottom: 50px;
+	font-size: 10px;
+	color: #302523;
+}
+.samplerKitsProducts th {height: 25px;background-color:#f6af3d;;text-align:left;padding-left: 5px;}
+.samplerKitsProducts th span {color: #ffffff;}
+.samplerKitsProducts td {
+	height: 25px;
+	padding: 5px 5px 5px 5px;
+}
+/*.samplerKitsProducts a {text-decoration: underline; }*/
+.evenTR {background-color: #eeeeee;}
+.caption {
+	font-size: 14px;
+	font-weight: bolder;	
+}
+.captionDiv {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+.hand {cursor: pointer;}
+#containerDiv {
+	padding-left: 20px;
+	padding-top: 70px;
+	padding-right: 20px;
+}
+#selectItemDiv {
+	float: left;
+	width: 490px;
+	padding-bottom: 20px;
+	}
+#itemDivDes {
+	margin-top:10px;
+	padding-top:10px;
+	border-top: 1px solid #B6B6B6;
+	margin-bottom: 20px;
+	}
+#itemDivWarn {
+	color:#0C3C91;
+	padding-left: 5px;
+}
+#buyArea {float: right;width: 190px;}
+#completeSelectionArea {padding-top: 30px;}
+#completeImg {margin-left: 400px;}
+#completeItem {margin-top: 20px;}
+#searchAreaDiv {
+	height: 120px;
+}
+#searchAreaDiv td{
+	border-top: 1px solid #BCBCBC;
+}
+.kiteProductSearch{
+	padding: 0px 0px 0px 0px;
+}
+#searchArea {float: left;}
+#upImg {height: 42px;}
+#centerImg {width: 300px;height: 26px;}
+#leftImg {float: left;width: 17px;}
+#rightImg {float: right;width: 54px;}
+#searchText {
+	width: 208px;
+	line-height: 14px;
+	color: #cfcfcf;
+}
+#downImg {height: 40px;}
+#searchDes {
+	width:380px;
+	padding-left: 40px;
+	font-size: 10px;
+	color: #3E3A39;
+}
+.pageArea {border-top: 1px solid #cfcfcf;}
+
+/* sampler_kits list */
+#samplerKitsDiv {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#samplerTable {
+	margin-top: 20px;
+	padding-bottom: 30px;
+}
+#samplerTable tr:hover td a{
+	color: #F7B956;
+	}
+#samplerTable th,#samplerTable td {
+	height: 24px;
+}
+
+#desTxt {
+	margin-top: 5px;
+}
+#desTxt p{
+	margin-top: 45px;
+	border-top: 1px solid #bcbcbc;
+	padding-top:10px;
+}
+#desTxt li{
+	line-height: 18px;
+}
+.evenTR{
+	background-color: #EEEEEE;
+}
+.tableTitle {
+	font-weight: bolder;
+	color: #ffffff;
+	padding-left: 5px;
+}
+.tableHead {
+	background-color: #F5B03B;
+}
+
+/* navigator */
+.navigator {margin-bottom: 20px;}
+
+.samplerKit{
+	padding-top:1px;
+	padding-left: -15px;
+	margin-left: -40px;
+	}
+

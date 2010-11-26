@@ -1,0 +1,241 @@
+/*Public or Common css*/
+
+/* formtable */
+.formtable th,.formtable td{
+	text-align:left; 
+	border-top:dotted 1px #D7D7D7; 
+	border-left:dotted 1px #D7D7D7;
+	padding:2px 4px 2px 4px; 
+	vertical-align:middle;
+}
+
+.formtable {
+	border-right:dotted 1px #D7D7D7; 
+	border-bottom:dotted 1px #D7D7D7;
+}
+
+.formtable td input[type="text"],.formtable td input[type="password"],.formtable td textarea,.formtable td select{
+	border:1px solid #D7D7D7;
+	margin:0px;
+	padding:0px;
+	width:100% 
+}
+
+.formtable .center{
+	margin:auto; 
+	text-align:center; 
+}
+
+.formtable .center input{
+	background-image: url(Images/Button.gif);
+	border:0px;
+	width: 72px;
+	height: 24px;
+	color: #0D3053;
+	text-align: center; 
+	margin:0px 16px; 
+}
+
+.citationCategory{
+	color: #fff; 
+	font-size: 13px; 
+	font-weight: bold;
+}
+
+.citationCatalog{
+	color: #ff9d00; 
+	font-size: 12px; 
+	font-weight: bold;
+}
+
+.citationSite{
+	color: #ff9d00; 
+	font-size: 12px;
+}
+
+.categoryTitle {
+	font-size: 12px;
+}
+
+.error{
+	color: red
+}
+
+.contactUsHeaddd{
+	border-bottom:1px solid #E3E3E3;
+	height: 37px
+}
+
+.contactUsHeaddd .image{
+	padding-top:6px; 
+	padding-bottom:6px; 
+	float:left
+}
+
+.contactUsHeaddd .link{
+	padding-top:6px; 
+	padding-bottom:6px;
+	float:right
+}
+
+.contactUsHeaddd .content{
+	padding-top:5px; 
+	padding-bottom:6px; 
+	float:left;
+	padding-left:0px;
+}
+
+.contactUsHeaddd span {
+	padding-left: 5px; 
+	padding-right: 5px;
+}
+
+.navTitle {
+	font-size: 15px;
+	font-weight: bolder;
+	color: #f5af64;
+}
+
+.home{
+	size:2px;
+	color:#9B9B9B
+}
+
+.contact{
+	size:2px;
+	color:#F7AE3D
+}
+
+.contactUsCenter{
+	border-bottom:1px solid #4A4A4A;
+	border-bottom-style:dotted;
+	height: 84px
+}
+
+.selecttest{
+	margin-top:31px; 
+	margin-left:20px;
+	float:left
+}
+
+.contactUsfooter{
+	margin-top:20px;
+	margin-right: 6px;
+}
+.contactUs{
+	margin-right: 6px;
+	position: relative;
+	padding-top: 20px;
+
+	}
+.contactUs a{
+   text-decoration: underline;
+}
+
+.contactUs .tableList td{
+	padding: 15px 8px 15px 8px;
+}
+/* table list */
+.tableList {
+	padding-left:0px;
+	margin-left:5px;
+	text-align:left;
+	font-size: 10px;
+	margin-bottom: 20px;
+}
+
+.tableList th {
+	
+	background-color: #F6AE3C;
+	text-align:left;
+	padding:4px 0px 4px 10px;
+}
+
+.tableList td {
+
+	line-height:13px;
+	padding:10px 10px 10px 10px;
+}
+#productList td{
+	 border-bottom:none;
+}
+
+.tableList a {
+	color: #000000; 
+}
+
+.tableList a:hover {
+	color: #F7B956;
+}
+
+.tableList a:visited {
+	color: #000000;
+}
+
+#productList tr td a:hover {
+	color: #F7B956;
+}
+
+.evenTR {
+	background-color: #eeeeee;
+}
+
+.tableColumn {
+	color: #ffffff;
+}
+
+.tableName {
+	font-size: 13px;
+	color: #ffffff; 
+	font-weight: bold;
+}
+
+.highLight td {
+	background-color: #f5af40;
+	text-align:left;
+}
+
+.backgroundTable{
+	text-align:left; 
+	background-color:#B4B4B4
+}
+
+.pagesList{
+	font-size:11px;
+	height:10px; 
+	width:25px;
+	text-align: center;
+	line-height: 10px;
+}
+
+.sitemap-link-padding {
+	padding-top:5px;
+}
+
+.sitemap-link-padding li {
+	list-style-image: inherit; 
+	list-style-type: square;
+}
+
+#sitemap-link-table  .first-level-link {
+	color: #F3AB35; 
+
+}
+
+#sitemap-link-table .second-level-link {
+	text-decoration: none; 		
+}
+
+#productDisplay .siteWidth {
+	 width:720px;
+	 word-wrap:break-word; 
+	 break-word: break-all;
+}
+
+.a_disable {poorfish:expression(this.onclick=function kill(){return false})}
+
+
+#productAdvanceList{
+	width: 735px;
+}
+

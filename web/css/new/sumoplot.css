@@ -1,0 +1,12 @@
+span.highscore { 
+    color: #ff0000; 
+} 
+ 
+span.midscore { 
+    color: #0ff5ff; 
+} 
+ 
+span.lowscore { 
+    color: #0000ff; 
+}
+

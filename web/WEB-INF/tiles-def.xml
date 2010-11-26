@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+ <!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+	<!-- Definitions for Tiles documentation   -->
+
+<tiles-definitions>
+
+	<!-- Components -->
+	<definition name="baolu.main.layout" template="/jsp/layout/site/baseLayout.jsp">
+		<put-attribute name="title" value="Baolu" />
+		<put-attribute name="keywords" value="baolu.title" />
+		<put-attribute name="description1" value="baolu.title" />
+		<put-attribute name="copyright" value="baolu.title" />
+		<put-attribute name="author" value="Baolu, Inc" />
+		<put-attribute name="robots" value="all, index, follow" />
+		<put-attribute name="maincss" value="/css/main.css" />
+		<put-attribute name="header" value="/jsp/layout/site/header.jsp" />
+		<put-attribute name="toolbar" value="/jsp/layout/site/toolbar.jsp" />
+		<put-attribute name="left" value="/jsp/layout/site/left.jsp" />
+		<put-attribute name="content" value="/jsp/layout/site/content.jsp" />
+		<put-attribute name="footer" value="/jsp/layout/common/footer.jsp" />
+	</definition>
+	
+	<definition name="baolu.error" template="/jsp/layout/site/baseLayout.jsp">
+		<put-attribute name="title" value="Page Not Found" />
+		<put-attribute name="keywords" value="baolu.title" />
+		<put-attribute name="description1" value="baolu.title" />
+		<put-attribute name="copyright" value="baolu.title" />
+		<put-attribute name="author" value="Baolu, Inc" />
+		<put-attribute name="robots" value="all, index, follow" />
+		<put-attribute name="maincss" value="/css/main.css" />
+		<put-attribute name="header" value="/jsp/layout/site/header.jsp" />
+		<put-attribute name="toolbar" value="/jsp/layout/site/toolbar.jsp" />
+		<put-attribute name="left" value="/jsp/layout/site/left.jsp" />
+		<put-attribute name="footer" value="/jsp/layout/common/footer.jsp" />
+		<put-attribute name="content" value="/commons/404.jsp" />
+	</definition>
+	
+	<definition name="baolu.product.not.exist" extends="baolu.main.layout">
+		<put-attribute name="content" value="/jsp/site/product/product_not_exist.jsp" />
+	</definition>
+
+	<definition name="baolu.main.detail.layout" extends="baolu.main.layout">
+		<put-attribute name="header" value="/jsp/layout/site/searchHeader.jsp" />
+	</definition>
+
+	<definition name="baolu.main.category.layout" extends="baolu.main.detail.layout">
+		<put-attribute name="left" value="/jsp/layout/reagent/productLeft.jsp" />
+	</definition>
+
+
+	<definition name="baolu.tools.sumoplot" extends="baolu.main.category.layout">
+		<put-attribute name="content" value="/jsp/site/tools/sumoplot_result.jsp" />
+	</definition>
+
+
+</tiles-definitions>

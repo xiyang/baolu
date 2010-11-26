@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>   
+<beans xmlns="http://www.springframework.org/schema/beans"  
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"  
+  xmlns:tx="http://www.springframework.org/schema/tx" xmlns:jdbc="http://www.springframework.org/schema/jdbc"  
+  xmlns:p="http://www.springframework.org/schema/p"  
+  xsi:schemaLocation="http://www.springframework.org/schema/beans   
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd   
+    http://www.springframework.org/schema/context   
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd   
+    http://www.springframework.org/schema/tx   
+    http://www.springframework.org/schema/tx/spring-tx-3.0.xsd   
+    http://www.springframework.org/schema/jdbc   
+    http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd"
+    default-autowire="byName" default-lazy-init="true">  
+
+	<description>define all the basic bean mappings</description>
+	<context:annotation-config />
+	
+	<!-- for properties files -->
+	<bean id="propertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath*:config/jdbc.properties</value>
+			</list>
+		</property>
+	</bean>
+
+	<!-- mysql
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="${jdbc.driver}"/>
+		<property name="url" value="${jdbc.url}"/>
+		<property name="username" value="${jdbc.username}"/>
+		<property name="password" value="${jdbc.password}"/>
+	</bean>
+	
+	  -->
+
+	<bean id="dataSource" class="org.apache.tomcat.dbcp.dbcp.BasicDataSource" destroy-method="close">
+
+  <property name="driverClassName"> 
+
+    <value>${jdbc.driver}</value>
+
+  </property>
+
+  <property name="url">
+
+    <value>${jdbc.url}</value>
+
+  </property>
+
+  <property name="username">
+
+    <value>${jdbc.username}</value>
+
+  </property>
+
+  <property name="password">
+
+    <value>${jdbc.password}</value>
+
+  </property>
+
+  <property name="initialSize">
+
+    <value>2</value>
+
+  </property>
+
+  <property name="maxActive">
+
+    <value>5</value>
+
+  </property>
+
+  <property name="maxIdle">
+
+    <value>2</value>
+
+  </property>
+
+</bean>
+	 
+	<!--Hibernate SessionFatory-->
+	<bean id="sessionFactory" class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="namingStrategy">
+			<bean class="org.hibernate.cfg.ImprovedNamingStrategy" />
+		</property>
+		
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+				<prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.cache.provider_class">org.hibernate.cache.EhCacheProvider</prop>
+				<prop key="hibernate.cache.use_query_cache">true</prop>
+				<prop key="hibernate.jdbc.batch_size">50</prop>
+				<prop key="hibernate.cache.use_second_level_cache">true</prop>			
+			</props>
+		</property>
+		<property name="packagesToScan" value="com.lsxyz.baolu..**.model"/>
+	</bean>
+
+<!-- i18n configure -->
+	<bean id="messageSource"  class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basenames">	   
+		<list>
+		     <value>com.lsxyz.baolu.core.i18n.messageResource</value>
+		     <value>com.lsxyz.baolu.site.i18n.messageResource</value>
+		 </list>	
+	  	</property> 
+    </bean> 
+    <bean id="localeResolver" class="org.springframework.web.servlet.i18n.SessionLocaleResolver"/>
+    
+	<!--Hibernate TransactionManager-->
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>	
+	
+	<context:component-scan base-package="com.lsxyz">
+		<context:include-filter type="regex" expression="com\.lsxyz\.baolu\..*?\.dao\..*"/>
+		<context:include-filter type="regex" expression="com\.lsxyz\.baolu\..*?\.service\..*"/>
+	</context:component-scan>
+	
+	<!-- Support @Transactional tag -->
+	<tx:annotation-driven />
+
+	<!-- upload file -->
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<!--property name="maxUploadSize">
+			<value>10485760</value>
+		</property>-->
+		<property name="maxInMemorySize">
+			<value>20480</value>
+		</property>
+		<property name="defaultEncoding">
+			<value>UTF-8</value>
+		</property>
+	</bean>
+
+</beans>

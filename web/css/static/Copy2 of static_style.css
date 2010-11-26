@@ -1,0 +1,159 @@
+/*****all_static_pages*****/
+#static_content {
+  font-size: 10px;
+  line-height: 20px;
+  padding: 0px 10px 20px;
+}
+
+#static_content h1 {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+#static_content h2 {
+  font-size: 11px;
+}
+
+#static_content p {
+  margin: 0px;
+  margin-bottom: 5px;
+  text-align: justify;
+}
+
+#static_content ul {
+  padding-left: 0;
+  margin: 5px 0 10px;
+}
+
+#static_content ul li {
+  list-style: disc;
+  margin-left: 15px;
+}
+
+#static_content ol {
+  padding-left: 0;
+}
+
+#static_content ol li {
+  list-style: decimal;
+  margin-left: 15px;
+}
+
+#static_content dt {
+  line-height: 15px;
+  font-size: 11px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#static_content dd {
+  margin: 5px 0px 15px 0px;
+}
+
+#static_content a {
+  text-decoration: underline;
+  color: #5D71A4;
+}
+
+#static_content .illustration {
+  margin: 20px auto;
+  text-align: center;
+}
+
+#static_content .illustration img {
+  margin: 2px;
+}
+
+#static_content .illustration span {
+  font-size: 9px;
+  display: block;
+  line-height: 10px;
+}
+
+#static_content table {
+  border-style: solid;
+  border-collapse: collapse;
+  border-width: 1px;
+  margin-bottom: 15px;
+}
+
+#static_content table .caption h2 {
+  margin: 2px;
+}
+
+#static_content table td,th {
+  padding: 4px 15px 4px 10px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#static_content table td ul,ol {
+  margin: 4px;
+}
+#static_content hr.separator {
+  height: 1px;
+  width: 100%;
+  border-style: none;
+  background: #BCBCBC;
+  margin: 20px 0;
+}
+
+#static_content h2.orange_h2 {
+  color: #FA8E10;
+}
+
+#static_content a.request_quote {
+  color: #144BFE;
+  font-weight: bold;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+/*****abgent_posters*****/
+#posters_list, #brochures_list {
+  margin-top: 30px;
+}
+#posters_list li.poster_item, #brochures_list li.poster_item {
+  list-style: none;
+  float: left;
+  width: 150px;
+  margin: 10px 10px;
+}
+#posters_list li.poster_item img,span {
+  display: block;
+  text-align: center;
+}
+#brochures_list li.poster_item img,span {
+  display: block;
+  text-align: center;
+}
+#posters_list li.poster_item img, #brochures_list li.poster_item img {
+  margin: 0 auto;
+}
+
+
+/*****about_us*****/
+strong.goal {
+  color: #F5AF40;
+  font-weight: bold;
+}
+
+#static_content table.service_detail {
+  border-style: none;
+  border-width: 0px;
+  margin-top: 20px;
+}
+#static_content table.service_detail tr td,th {
+  border-style: solid;
+  border-width: 0px;
+  border-bottom-color: #F7AE3D;
+  border-bottom-width: 1px;
+}
+
+td.service_category {
+  color: white;
+  background: #F7AE3D;
+  font-size: 11px;
+  font-weight: bold;
+}

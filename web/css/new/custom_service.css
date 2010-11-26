@@ -1,0 +1,59 @@
+/* custom project */
+
+/*Peptide*/
+#customProjectTable {
+	border-collapse: collapse; 
+	border: 1px solid #CFCFCF; 
+	width: 100%;
+}
+
+#customProjectTable td,  #customProjectTable th {
+	height: 25px;  
+	text-align: left;
+	border-bottom: 1px dotted #CFCFCF;
+}
+
+#customProjectTable span {
+	font-weight: bolder;
+}
+
+#customProjectTable input[type="text"] {
+	width: 98%
+}
+
+#customProjectcontainer {
+	margin-left: 5px;
+	margin-top:0px;
+	padding-top: 45px;
+}
+
+/*mono antibody*/
+#monoAntidobyTable {
+	width: 100%;
+	border: 1px dotted #CFCFCF;
+}
+
+#monoAntidobyTable a {
+	color: #339900;
+	text-decoration: underline;
+}
+
+#monoAntidobyTable legend {
+	font-weight: bolder;
+}
+
+#monoAntidobyTable span {
+	font-weight: bolder;
+}
+
+#specialInstructionTable {
+	width: 100%;
+}
+
+#monoAntidobyTable table textarea {
+	width: 80%;
+}
+
+#monoAntidobyTable .title {
+	background-color: #999999;
+}

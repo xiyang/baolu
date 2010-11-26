@@ -1,0 +1,101 @@
+body    {font-size:12px; font-family: Arial;
+         font-style:inherit;font-weight:inherit;
+         color:#4a4a4a;text-align:center;  
+         margin:0px auto 5px auto;       
+         background-image:url(../images/header-bg.png );
+         background-repeat:repeat-x;  
+}
+a       {color: #4a4a4a;text-decoration: none;}
+a:hover {color: #f5af64;text-decoration: none;}
+a:active{color: #4E7AB1;text-decoration: none;}
+img     {border:0px;}
+UL {
+	LIST-STYLE-TYPE: none
+}
+OL {
+	LIST-STYLE-TYPE: none
+}
+LI {
+	LIST-STYLE-TYPE: none
+}
+.hand{cursor: pointer;}
+/*container*/
+#container {MARGIN: 0px auto; WIDTH: 940px;}
+/*header*/
+#header{height:72px;}
+.logoCRO{height:72px;width:200px;background-image:url(../images/logo.gif);background-repeat:no-repeat;background-position:0px 15px; float:left;margin-left: 18px;}
+
+#language  {width:287px;float:right;height:23px;margin-top: 25px;text-align:right;}
+
+#toolbar{float:right; margin:44px 10px 0px 0px;height:16px;color:#3B3B3B;}
+.fontStyle{color:#3B3B3B;font-family:Arial;font-size:12px;padding-top:5px;margin-top:5px;font-weight: bold;}
+#toolbar img{margin-right: 7px; color: #1F3D99;margin-bottom:-3px;}
+
+#menu{height:30px;color:#F6AE3C;line-height:30px;font-weight:bolder;}
+#banner{ position: relative;top: -4px;
+	height:136px;color:#F6AE3C;line-height:30px;font-weight:bolder;}
+
+.menuFontTest{color: #FFF;font-size:12px;}
+
+/*menu*/
+
+#menu{height:30px;background-image:url(../images/menu_bg.png);background-repeat:repeat-x;color:#FFF;font-weight:bolder; }
+#menu .m_li{float:right;list-style-type:none;text-align: center}
+#menu .m_li_1{width : 2px ;background-image: url(../images/menu1.png);height: 30px}
+#menu #m1{width: 140px}
+#menu #m2{width: 140px}
+#menu #m3{width: 140px}
+#menu #m4{width: 140px}
+#menu #m5{width: 140px}
+#menu #m6{width: 140px}
+
+/* left main footer */
+#left{position: relative;width:191px;float:left;text-align:left;background-color:#F6F6F6;border:1px solid #EBEBEB;margin: 0px 0px 20px 0px;}
+.leftTitle{background-image:url(images/LBox_bg.gif);background-repeat:repeat-x ;height:31px; font-weight:bolder;line-height:31px;font-size:14px;text-indent:16px;  }
+
+#main  {margin:10px 0px 10px 0px;text-align:left;vertical-align:top;}
+
+/*move to new footer --begin--*/
+#footer .copyright{ border-bottom:1px solid #FFF;border-top:1px solid #FFF; color:#4A4A4A;padding:25px 0px;clear:both;}
+#footer .copyright A {color:#9D9D9D;font-size:11px;text-decoration:underline; cursor:pointer; }
+#footer .copyright p{margin:0px;padding:3px; }
+/*--end--*/
+
+.navigation{ position: relative;margin:10px 0px 10px 200px;top: -2px;height:35px;}
+.line{margin:-8px 0px 10px 200px;background-image:url(images/cro_line.png);background-repeat:no-repeat;}
+.line .content{ padding-top:12px; padding-left: 25px; }
+.images{width: 940px; height: 135px;}
+.titleLink{font-size: large; position: relative;}
+.titleImg{width: 7px; height: 9px; background-image:url(image/navImage.png);}
+.contentTitle{color: rgb(248, 184, 86);font-size: large;}
+/* leftbox */
+.leftbox{background:#F6F6F6; }
+.leftbox .title{height:31px; font-weight:bolder;line-height:31px;font-size:14px;text-indent:16px;background-color:#D1D1D1;color:#FFF;}
+.leftbox .content{border-right:1px solid #EBEBEB;border-bottom:1px solid #EBEBEB;}
+.secondMenu:hover,
+.secondMenu a:hover,
+.secondMenu a:FOCUS{
+	background: #F7B956;
+	color:#000000;
+}
+.leftbox li:hover{
+	color: #F7B956;
+}
+
+/* repeatlist */
+.repeatlist{  margin:0px;padding:0px;height:25;table-layout:fixed;word-break:break-all;}
+.repeatlist li{list-style:none;text-align:left;height:25px;line-height:25px;border-bottom:1px solid #D1D1D1;border-top:1px solid #FFF;text-indent:8px; }
+.repeatlist li a{display:block;}
+.repeatlist .more{height:25px;line-height:25px;text-align:right;border:0px}
+.subtitle{padding-left: 14px;}
+.nav li{ position: relative;left: -40px;width: 187px;
+	border-top:1px solid #FFF;height:50px;line-height:50px; padding-left: 20px;}
+.lilength{height:50px;}
+#except{list-style:none;text-align:left;height:25px;line-height:25px;border-top:1px solid #FFF;text-indent:18px;border-bottom:1px solid #EBEBEB;}
+.info, .success, .warning, .error, .validation {
+border: 1px solid;
+margin: 5px 0px;
+padding:5px 5px 5px 150px;
+background-repeat: no-repeat;
+background-position: 10px center;
+}
