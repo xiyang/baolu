@@ -17,7 +17,6 @@
 <tiles:useAttribute id="copyright" name="copyright"/>
 <tiles:useAttribute id="description1" name="description1"/>
 <tiles:useAttribute id="keywords" name="keywords"/>
-<tiles:useAttribute id="verify" name="verify"/>
 
 <title>${title}</title>
 <meta content="all" name="${robots}" />
@@ -42,7 +41,6 @@
 
 </head>
 <body>
-	
  	<div id="container">
         <div id="header">
             <tiles:insertAttribute name="header" />

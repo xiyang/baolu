@@ -21,6 +21,11 @@ public class MainController {
     public String detail(Model model) {
         return "baolu.main.layout";
     }
+
+    @RequestMapping(value = "error", method = RequestMethod.GET)
+    public String error(Model model) {
+        return "baolu.error";
+    }
 }
 
 
